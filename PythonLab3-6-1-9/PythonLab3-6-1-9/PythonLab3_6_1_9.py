@@ -7,4 +7,4 @@ for number in my_list:  # Checks all numbers in the original list.
 	if number not in new_list:  # If the number isn't in the new list then
 		new_list.append(number)  # it will append (add/copy) it here.
 my_list = new_list[:]  # Copies 'new_list' to the oridginal 'my_list'.
-print("A list with no duplicates:\n", my_list, "\n")
+print("The list with unique elements only:\n", my_list, "\n")
